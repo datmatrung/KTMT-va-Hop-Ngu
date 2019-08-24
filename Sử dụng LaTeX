@@ -1,0 +1,67 @@
+Bước 1: Cài đặt MiKTeX (Compiler - Trình biên dịch)
+Vào https://miktex.org/download để tải bản MiKTeX phù hợp với máy của bạn và cài đặt MiKTeX.
+Bước 2: Cài đặt Texmaker (Editor - Trình soạn thảo)
+Vào http://www.xm1math.net/texmaker/download.html để tải bản Texmaker mới nhất về và cài đặt Texmaker.
+Bước 3: Soạn thảo:
+
+1. Form:
+\documentclass[12pt]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\begin{document}
+\end{document}
+
+2. Công thức:
+Công thức cùng dòng với văn bản: $a+b=c$
+Công thức khác dòng với văn bản: $$a+b=c$$
+
+3. Đánh số tham chiếu:
+\begin{align}
+    x+y=z \\
+    2+3=5
+\end{align}
+
+4. Hệ phương trình:
+\begin{align}
+    \begin{cases}
+        x+y+z &= 1 \\
+        x-2y+z &= 2 \\
+        x-y &= 6
+    \end{cases}
+\end{align}
+
+5. Tập hợp số:
+-Số tự nhiên: $\mathbb{N}$\\
+-Số nguyên: $\mathbb{Z}$\\
+-Số hữu tỷ: $\mathbb{Q}$\\
+-Số vô tỷ: $\mathbb{I}$\\
+-Số thực: $\mathbb{R}$
+
+6. Tích phân, giới hạn và tổng:
+-Tích phân: $\int_1^2(x^2+1)dx$\\
+-Tích phân to hơn: $\displaystyle \int_1^2(x^2+1)dx$\\
+-Giới hạn: $\lim_{x\to\infty}(x^2+1)$\\
+-Giới hạn to hơn: $\displaystyle \lim_{x\to\infty}(x^2+1)$\\
+-Tổng: $\sum_{i=1}^n(C^i_na^ib^{n-i})$\\
+-Tổng to hơn: $\displaystyle \sum_{i=1}^n(C^i_na^ib^{n-i})$
+
+7. Căn số, phân số:
+- Căn số: $\sqrt{2}, \sqrt[n]{3}$\\
+- Phân số: $\frac{1}{2}$ và $\dfrac{1}{2}$
+
+8. Mục lục:
+\tableofcontents
+\section{Đề mục to 1}
+\subsection{Đề mục nhỏ 1}
+Nội dung trong Đề mục nhỏ 1.
+\subsubsection{Đề mục nhỏ hơn 1}
+Nội dung trong đề mục nhỏ hơn 1.
+\subsubsection{Đề mục nhỏ hơn 2}
+Nội dung trong đề mục nhỏ hơn 2
+\subsection{Đề mục nhỏ 2}
+\section{Đề mục to 2}
+Nội dung trong đề mục to 2.
+\subsection{Đề mục nhỏ 1}
+\subsection{Đề mục nhỏ 2}
