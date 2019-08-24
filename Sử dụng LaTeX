@@ -14,7 +14,7 @@ Bước 3: Soạn thảo:
 \end{document}
 
 2. Công thức:
-Công thức cùng dòng với văn bản: $a+b=c$
+Công thức cùng dòng với văn bản: $a+b=c$\\
 Công thức khác dòng với văn bản: $$a+b=c$$
 
 3. Đánh số tham chiếu:
